@@ -148,4 +148,3 @@ depth_summary_stats$replicon <- str_replace(depth_summary_stats$replicon, "NZ_CP
 #### export #### 
 
 write_csv(RPKM_summary_stats, "../tables/RPKM_summary_statistics_Phi29Experiment_filteredMapData_2024-03.csv")
-write_csv(depth_summary_stats, "../tables/Depth_summary_statistics_Phi29Experiment_filteredMapData_2024-03.csv")
